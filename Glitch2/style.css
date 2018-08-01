@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+  }
+
+body {
+  margin: auto;
+/*   padding: 50px 50px; */
+  background-color: white;
+  width: 70%;
+}
+  
+  html {
+    background-color: #C5C6C8;
+  }
+  
+.site-logo {
+  background-color: #00377B;
+  color: white;
+  height: 70px;
+  padding: 20px 10px;
+  border-bottom: 2px solid #77D6EB;
+}
+
+.container {
+  line-height: 1.5;
+  background-color: white;
+  padding: 20px 20px;
+  margin: auto;
+  height: auto;
+  }
+
+.search {
+  background-color: #C5C6C8;
+  box-sizing: border-box;
+  }
+
+.search__choice {
+  display: inline-block; 
+  vertical-align: text-top;
+  background-color: #C5C6C8;
+}
+
+label {
+   display: block;
+   background-color: #C5C6C8;
+   margin: 10px;
+}
+
+.animal { 
+  max-width: 32%;
+  float: left;
+/*   padding-left: 30px; */
+}
+
+img {
+  height: 200px;
+  max-width: 95%;
+  padding-top: 10px;
+  
+}
+
+
+.animal__trait {
+  background-color: #33FFFF;
+  border-radius: 15px;
+  padding: 1.5px;
+}
+
+.animal__name {
+  font-weight: bold;
+}
+
+.footer {
+  clear: both;
+}
+
+.footer__block {
+  float: left;
+  width: 33.3%;
+  height: 200px;
+  padding-top: 70px;
+  text-align: center;
+  vertical-align: bottom;
+  
+  
+  
+}
+
+.footer__block--donate {
+  background: linear-gradient(rgba(30, 9, 110, 0.5),rgba(30, 9, 110, 0.5)),
+            no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137')
+    }
+
+.footer__block--volunteer {
+  background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.5)), 
+    no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718')
+}
+
+.footer__block--location {
+  background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.5)), 
+    no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805')
+}
+
+.footer__block a {
+  text-decoration: none;
+  color: #F4F6F6 ;
+  font-size: 250%; 
+  font-family: "Oswald";
+/*   margin-top: 100px; */
+  
+  
+}
+
