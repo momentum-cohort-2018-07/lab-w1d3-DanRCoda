@@ -1,0 +1,53 @@
+body {
+  font-family: Luminary, fantasy;
+  background-color: #FCF7F8;
+  color: #0A090C;
+  max-width: 800px;
+  margin: 0 auto;
+  background-image: url(https://previews.123rf.com/images/vicushka/vicushka1507/vicushka150700108/43275227-poppy-flowers-on-blurred-nature-background-banner-for-website.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.store-image {
+  width: 500px;
+  border-width: 5px;
+  border-color: #0A090C;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.plant-image {
+  height: 200px;
+}
+nav {
+  border-width: 5px;
+  border-style: solid;
+  /*border-radius: 50%;*/
+  padding: 10px
+}
+nav a {
+  padding: 75px;
+}
+ul {
+  list-style: none;
+}
+.in-stock-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
